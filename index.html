@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Snake Game</title>
+    <style>
+      body {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        margin: 0;
+        background-color: #1e1e1e; /* Dark shade of black */
+        font-family: Arial, sans-serif;
+        color: #fff; /* White text color for contrast */
+      }
+      .container {
+        text-align: center;
+      }
+      h1 {
+        font-size: 3rem;
+        color: #fff; /* White text color for contrast */
+      }
+      button {
+        font-size: 1.5rem;
+        padding: 10px 20px;
+        background-color: #4caf50;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+      }
+      button:hover {
+        background-color: #45a049;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Welcome to the Snake Game</h1>
+      <button onclick="startGame()">Start Game</button>
+    </div>
+
+    <script>
+      function startGame() {
+        // Redirect to the specified URL
+        window.location.href = "https://byanshul.github.io/Snake_Game/";
+      }
+    </script>
+  </body>
+</html>
